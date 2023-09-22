@@ -1,0 +1,71 @@
+header, .callToAction {
+    width: 100vw;
+    height: 20vh;
+    background-color: ivory;
+    margin: 20px auto 0 auto;
+    border: 5px black solid;
+    display: flex;
+    border-radius: 10vh;
+    box-shadow: 2px 2px gray;
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Kenia', cursive;
+    font-size: 3rem;
+    text-shadow: 2px 2px gray;
+}
+
+.callToAction h1 {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Kenia', cursive;
+    font-size: 3rem;
+    text-shadow: 2px 2px gray;
+}
+
+footer p {
+    text-align: center;
+}
+
+hr {
+    border: 5px black solid;
+}
+
+.cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+
+.card {
+    border: 3px black solid;
+    width: 40vw;
+    height: 65vh;
+    box-shadow: 2px 2px gray;
+    border-radius: 15px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 40vw;
+    height: 40vh;
+}
+
+.card h2 {
+    text-align: center;
+    font-family: 'Gloock', serif;
+}
+
+.card p {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 2vh;
+}
