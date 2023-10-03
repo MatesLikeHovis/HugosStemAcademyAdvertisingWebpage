@@ -1,5 +1,5 @@
 header, .callToAction {
-    width: 100vw;
+    width: 90vw;
     height: 20vh;
     background-color: ivory;
     margin: 20px auto 0 auto;
@@ -48,7 +48,7 @@ hr {
 .card {
     border: 3px black solid;
     width: 40vw;
-    height: 65vh;
+    height: 650px;
     box-shadow: 2px 2px gray;
     border-radius: 15px;
 }
@@ -56,7 +56,7 @@ hr {
 .card img {
     object-fit: cover;
     width: 40vw;
-    height: 40vh;
+    height: 400px;
 }
 
 .card h2 {
@@ -68,4 +68,27 @@ hr {
     font-family: 'Merriweather', serif;
     text-align: center;
     padding-top: 2vh;
+}
+
+@media screen and (max-device-width: 960px){
+    .cardWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        height: 800px;
+        width: 80vw;
+    }
+
+    .card img {width: 80vw;}
+}
+
+@media screen and (max-device-width: 720px){
+    header h1 {
+        font-size: 2rem;
+    }
+    .callToAction h1 {
+        font-size: 2rem;
+    }
 }
